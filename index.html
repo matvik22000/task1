@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Обо мне</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        mark {
+             background-color: rgba(255, 255, 255, 0);
+        }
+        header, footer {
+            background: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border: 1px solid #ddd;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Гуров Матвей</h1>
+    <p><mark>Backend-разработчик</mark></p>
+    <nav>
+        <ul>
+            <li><a href="#about">О себе</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+            <li><a href="#experience">Опыт</a></li>
+            <li><a href="#education">Образование</a></li>
+            <li><a href="#skills">Навыки</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section id="about">
+        <h2>Личная информация</h2>
+        <p><strong>Дата рождения:</strong> <time datetime="2003-09-24">24 сентября 2003 года</time></p>
+        <p><strong>Место проживания:</strong> <address>Санкт-Петербург, Россия</address></p>
+    </section>
+    <section id="contacts">
+        <h2>Контакты</h2>
+        <ul>
+            <li><strong>Email:</strong> <a href="mailto:matvik.gurov@gmail.com">matvik.gurov@gmail.com</a></li>
+            <li><strong>Telegram:</strong> <a href="https://t.me/obomba">@obomba</a></li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/matvik22000">matvik22000</a></li>
+        </ul>
+    </section>
+    <section id="experience">
+        <h2>Опыт работы</h2>
+        <article>
+            <h3>Dosflores</h3>
+            <p><strong>Должность:</strong> <mark>Fullstack-разработчик</mark>.</p>
+            <p><strong>Период:</strong> <time>1 год 8 месяцев</time>.</p>
+            <p><strong>Обязанности:</strong></p>
+            <details>
+                <summary>Подробнее</summary>
+                <p>Разработка CRM системы, интеграция с сервисами (Telegram, Yandex Maps, Chat2Desk).</p>
+            </details>
+        </article>
+        <article>
+            <h3>ПФМЛ 239</h3>
+            <p><strong>Должность:</strong> <mark>Педагог</mark>.</p>
+            <p><strong>Период:</strong> <time>1 год 10 месяцев</time>.</p>
+            <p><strong>Обязанности:</strong></p>
+            <details>
+                <summary>Подробнее</summary>
+                <p>Проведение курсов по web-разработке на Java и Python.</p>
+            </details>
+        </article>
+    </section>
+    <section id="education">
+        <h2>Образование</h2>
+        <p><strong>Учебное заведение:</strong> СПбНИУ ИТМО, факультет информационных технологий и программирования.</p>
+        <p><strong>Статус:</strong> <em>Неоконченное высшее</em> (окончание в <time>2026 году</time>).</p>
+    </section>
+    <section id="skills">
+        <h2>Навыки</h2>
+        <ul>
+            <li>Языки программирования: <code>Java</code>, <code>Python</code>, <code>JavaScript</code>, <code>Go</code></li>
+            <li>Фреймворки: <code>Spring Boot</code>, <code>FastAPI</code>, <code>Flask</code>.</li>
+            <li>Базы данных: <code>PostgreSQL</code>, <code>MySQL</code>, <code>MongoDB</code>.</li>
+            <li>Инструменты: <code>Docker</code>, <code>Git</code>.</li>
+        </ul>
+    </section>
+    <aside>
+        <h2>Дополнительная информация</h2>
+        <p>Нет такой</p>
+    </aside>
+</main>
+<footer>
+    <p>&copy; <time>2024</time> Гуров Матвей. Все права защищены.</p>
+    <address>
+        Контактная информация: <a href="mailto:matvik.gurov@gmail.com">matvik.gurov@gmail.com</a>
+    </address>
+</footer>
+</body>
+</html>
